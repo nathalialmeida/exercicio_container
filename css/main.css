@@ -1,13 +1,28 @@
-.container{
+.container1{
     display:flex;
+    flex-direction: row;
 }
 
-.container div{
-    width:400px;
+.container1 div{
+    width:100%;
     background-color: violet;
+    margin: 5px;
 }
 
-div{
-    background-color: bisque;
+
+.container2{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid purple;
+    max-width:100px;
+    flex-wrap:wrap-reverse;
+}
+
+.container2 div{
+    width:25px;
+    background-color: violet;
+    margin: 5px;
+
     
 }
+
