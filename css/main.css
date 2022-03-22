@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+}
+
+.container div{
+    width:400px;
+    background-color: violet;
+}
+
+div{
+    background-color: bisque;
+    
+}
